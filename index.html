@@ -154,15 +154,20 @@
         <h2 class="work__title section-title">Czym się zajmujemy</h2>
         <ul class="work-list list">
           <li class="work-list__item">
-            <img src="images/ipad_chart_op.jpg" alt="Pisanie kodu na urządzeniach mobilnych" width="370" height="294" />
+            <img srcset="./images/ipad_chart_op.jpg 1x,
+            ./images/ipad_chart_big.jpg 2x" src="./images/ipad_chart_op.jpg"
+              alt="Pisanie kodu na urządzeniach mobilnych" width="370" />
             <p class="work-list__text">APLIKACJE KOMPUTEROWE</p>
           </li>
           <li class="work-list__item">
-            <img src="images/iphone_op.jpg" alt="Układanie layout na urządzenia mobilne" width="370" height="294" />
+            <img srcset="./images/iphone_op.jpg 1x,
+            ./images/iphone_big.jpg 2x" src="images/iphone_op.jpg" alt="Układanie layout na urządzenia mobilne"
+              width="370" />
             <p class="work-list__text">APLIKACJE MOBILNE</p>
           </li>
           <li class="work-list__item">
-            <img src="images/ipad_rgb_op.jpg" alt="Wybór kolorów z palety" width="370" height="294" />
+            <img srcset="./images/ipad_rgb_op.jpg 1x,
+            ./images/ipad_rgb_big.jpg 2x" src="images/ipad_rgb_op.jpg" alt="Wybór kolorów z palety" width="370" />
             <p class="work-list__text">ROZWIĄZANIA GRAFICZNE</p>
           </li>
         </ul>
@@ -173,7 +178,14 @@
         <h2 class="section-title team__title">Nasz zespół</h2>
         <ul class="team-list list">
           <li class="team-list__item">
-            <img src="images/prod_designer_op.jpg" alt="Product Designer" width="270" height="260" />
+            <picture>
+              <source srcset="./images/prod_designer_mobile.jpg 1x,./images/prod_designer_mobile@2x.jpg 2x"
+                media="(max-width: 767px)" type="image/jpg">
+              <source srcset="./images/prod_designer_tablet.jpg 1x,./images/prod_designer_tablet@2x.jpg 2x"
+                media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+              <source srcset="./images/prod_designer_desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+              <img src="./images/prod_designer_op.jpg" alt="Product Designer" width="354" height="374" />
+            </picture>
             <div class="team-list__workers">
               <h3 class="team-list__worker">John Doe</h3>
               <p class="team-list__possition">Product Designer</p>
@@ -213,7 +225,14 @@
             </div>
           </li>
           <li class="team-list__item">
-            <img src="images/developer_op.jpg" alt="Frontend Developer" width="270" height="260" />
+            <picture>
+              <source srcset="./images/developer_mobile.jpg 1x,./images/developer_mobile@2x.jpg 2x"
+                media="(max-width: 767px)" type="image/jpg">
+              <source srcset="./images/developer_tablet.jpg 1x,./images/developer_tablet@2x.jpg 2x"
+                media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+              <source srcset="./images/developer_desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+              <img src="./images/developer_op.jpg" alt="Frontend Developer" width="354" height="374" />
+            </picture>
             <div class="team-list__workers">
               <h3 class="team-list__worker">John Doe</h3>
               <p class="team-list__possition">Frontend Developer</p>
@@ -253,7 +272,14 @@
             </div>
           </li>
           <li class="team-list__item">
-            <img src="images/masrketing_op.jpg" alt="Marketing" width="270" height="260" />
+            <picture>
+              <source srcset="./images/marketing_mobile.jpg 1x,./images/marketing_mobile@2x.jpg 2x"
+                media="(max-width: 767px)" type="image/jpg">
+              <source srcset="./images/marketing_tablet.jpg 1x,./images/marketing_tablet@2x.jpg 2x"
+                media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+              <source srcset="./images/marketing_desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+              <img src="./images/marketing_op.jpg" alt="Marketing" width="354" height="374" />
+            </picture>
             <div class="team-list__workers">
               <h3 class="team-list__worker">John Doe</h3>
               <p class="team-list__possition">Marketing</p>
@@ -293,7 +319,14 @@
             </div>
           </li>
           <li class="team-list__item">
-            <img src="images/ui_designer_op.jpg" alt="UI Designer" width="270" height="260" />
+            <picture>
+              <source srcset="./images/ui_designer_mobile.jpg 1x,./images/ui_designer_mobile@2x.jpg 2x"
+                media="(max-width: 767px)" type="image/jpg">
+              <source srcset="./images/ui_designer_tablet.jpg 1x,./images/ui_designer_tablet@2x.jpg 2x"
+                media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+              <source srcset="./images/ui_designer_desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+              <img src="./images/ui_desginer_op.jpg" alt="UI Designer" width="354" height="374" />
+            </picture>
             <div class="team-list__workers">
               <h3 class="team-list__worker">John Doe</h3>
               <p class="team-list__possition">UI Designer</p>

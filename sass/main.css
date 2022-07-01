@@ -6,7 +6,7 @@
   --black-logo-color: #000000;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --white-background-color: #ffffff;
-  --hero-background-color: #2f303a;
+  --main-background-color: #2f303a;
   --team-background-color: #f5f4fa;
 }
 
@@ -665,7 +665,7 @@ textarea:focus {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--hero-background-color);
+  background-color: var(--main-background-color);
 }
 
 .footer__flex {
@@ -814,7 +814,7 @@ textarea:focus {
   padding: 13px 16px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: var(--hero-background-color);
+  background-color: var(--main-background-color);
   color: var(--white-text-color);
 }
 .footer-submit__input::placeholder {
@@ -1134,8 +1134,8 @@ textarea:focus {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--hero-background-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/main-mobile.jpg");
+  background-color: var(--main-background-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1145,27 +1145,27 @@ textarea:focus {
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-mobile2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_mobile_big.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .main {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main-tablet.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_tablet.jpg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main-tablet2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_tablet_big.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .main {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main-desktop.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_desktop.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main-desktop2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main_desktop_big.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1306,7 +1306,7 @@ textarea:focus {
   text-align: center;
 }
 
-.team-list__profession {
+.team-list__possition {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
