@@ -83,12 +83,12 @@
   <main>
     <section class="portfolio-section">
       <div class="container">
-        <ul class="list portfolio-button__list">
-          <li class="portfolio-button-item"><button class="portfolio-button" type="button">Wszystkie</button></li>
-          <li class="portfolio-button-item"><button class="portfolio-button" type="button">Strony</button></li>
-          <li class="portfolio-button-item"><button class="portfolio-button" type="button">Aplikacje</button></li>
-          <li class="portfolio-button-item"><button class="portfolio-button" type="button">Dizajn</button></li>
-          <li class="portfolio-button-item"><button class="portfolio-button" type="button">Marketing</button></li>
+        <ul class="list portfolio-btn__list">
+          <li class="portfolio-btn_item"><button class="portfolio-btn" type="button">Wszystkie</button></li>
+          <li class="portfolio-btn_item"><button class="portfolio-btn" type="button">Strony</button></li>
+          <li class="portfolio-btn_item"><button class="portfolio-btn" type="button">Aplikacje</button></li>
+          <li class="portfolio-btn_item"><button class="portfolio-btn" type="button">Dizajn</button></li>
+          <li class="portfolio-btn_item"><button class="portfolio-btn" type="button">Marketing</button></li>
         </ul>
       </div>
     </section>
@@ -97,7 +97,14 @@
         <ul class="list portfolio-list">
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/laptop_op.jpg" alt="Laptop" width="370" height="294" />
+              <picture>
+                <source srcset="./images/techno-mobile.jpg 1x,./images/techno-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/techno-tablet.jpg 1x,./image/techno-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/techno-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/techno-tablet.jpg" alt="Technocrack" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -111,7 +118,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/basketball_op.jpg" alt="Playing basketball" width="370" height="294" />
+              <picture>
+                <source srcset="./images/basketball-mobile.jpg 1x,./images/basketball-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/basketball-tablet.jpg 1x,./image/basketball-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/basketball-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/basketball-tablet.jpg" alt="Playing Basketball" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -125,7 +139,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/seafood_op.jpg" alt="Seafood poster" width="370" height="294" />
+              <picture>
+                <source srcset="./images/seafood-mobile.jpg 1x,./images/seafood-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/seafood-tablet.jpg 1x,./image/seafood-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/seafood-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/seafood-tablet.jpg" alt="Seafood" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -139,7 +160,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/headphones_op.jpg" alt="Headphones" width="370" height="294" />
+              <picture>
+                <source srcset="./images/headphones-mobile.jpg 1x,./images/headphones-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/headphones-tablet.jpg 1x,./image/headphones-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/headphones-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/headphones-tablet.jpg" alt="Headphones" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -153,7 +181,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/book_op.jpg" alt="Box" width="370" height="294" />
+              <picture>
+                <source srcset="./images/box-mobile.jpg 1x,./images/box-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg">
+                <source srcset="./images/box-tablet.jpg 1x,./image/box-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/box-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/box-tablet.jpg" alt="Boxes" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -167,7 +202,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/imac_op.jpg" alt="iMac" width="370" height="294" />
+              <picture>
+                <source srcset="./images/inspiration-mobile.jpg 1x,./images/inspiration-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/inspiration-tablet.jpg 1x,./image/inspiration-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/inspiration-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/inspiration-tablet.jpg" alt="Inspiration" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -181,7 +223,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/book_op.jpg" alt="Book" width="370" height="294" />
+              <picture>
+                <source srcset="./images/book-mobile.jpg 1x,./images/book-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg">
+                <source srcset="./images/book-tablet.jpg 1x,./image/book-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/book-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/book-tablet.jpg" alt="Book" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -195,7 +244,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/label_op.jpg" alt="Label" width="370" height="294" />
+              <picture>
+                <source srcset="./images/label-mobile.jpg 1x,./images/label-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg">
+                <source srcset="./images/label-tablet.jpg 1x,./image/label-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/label-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/label-tablet.jpg" alt="Label" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -209,7 +265,14 @@
           </li>
           <li class="portfolio-item">
             <div class="portfolio-description">
-              <img src="images/laptop-writing_op.jpg" alt="Writing on laptop" width="370" height="294" />
+              <picture>
+                <source srcset="./images/laptop-mobile.jpg 1x,./images/laptop-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)" type="image/jpg">
+                <source srcset="./images/laptop-tablet.jpg 1x,./image/laptop-tablet@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)" type="image/jpg">
+                <source srcset="./images/laptop-desktop.jpg 1x" media="(min-width: 1200px)" type="image/jpg">
+                <img src="./images/laptop-tablet.jpg" alt="Laptop" width="354" height="294" />
+              </picture>
               <div class="portfolio-overlay">
                 <p class="portfolio-description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
                   exercitationem maiores doloremque ut, culpa itaque, laboriosam id, voluptate voluptas molestiae
@@ -255,8 +318,8 @@
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
-            </li class="footer-list__item">
-            <li>
+            </li>
+            <li class="footer-list__item">
               <a class="footer-list__link" href="https://twitter.com/">
                 <svg class="footer-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
