@@ -1,5 +1,3 @@
-14 lines (12 sloc)  404 Bytes
-
 (() => {
   const refs = {
     openMenuBtn: document.querySelector("[data-menu-open]"),
