@@ -1394,6 +1394,7 @@ textarea:focus {
 @media screen and (min-width: 1200px) {
   .team-list__item {
     width: 270px;
+    max-height: 428px;
   }
 }
 
